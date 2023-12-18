@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yt_vid, .body_vids, .footer_audio {
+            margin-left: 10px;
+        }
+
+        .video_container2 {
+            margin-left: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Interactive Media Gallery</h1>
+    </div>
+    <h3>Featured video</h3>
+    <br>
+    <div class="yt_vid">
+        <p><b>Video: "Epic Adventure"</b></p>
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/XV00FPMswTA?si=-wiScfN7-GML4x_x"
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+        gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <h3>Video Playlist</h3>
+    <br>
+    <div class="body_vids" style="display: flex; flex-direction: row;">
+        <div class="video_container">
+            <p><b>Video: "Discovering Nature"</b></p>
+            <p>Take a journet through mesmerizing landscapes and wildlife.</p>
+            <video src="me.mp4" width="350px" controls autoplay muted></video>
+        </div>
+        <div class="video_container2">
+            <p><b>Video: "City Life"</b></p>
+            <p>Explore the vibrant energy of a busting city.</p>
+            <video src="me.mp4" width="350px" controls autoplay muted></video>
+        </div>
+    </div>
+    
+    <hr>
+    <h3>Audio Playlist</h3>
+    <br>
+    <div class="footer_audio" style="display: flex; flex-direction: row;">
+        <div class="audio_container">
+            <p><b>Song: "Chill Vibes"</b></p>
+            <p>Relax and unwind with this soothing and melodic tune.</p>
+            <audio src="pinkfloyda.mp3" controls></audio>
+        </div>
+        <div class="video_container2">
+            <p><b>Song: "Upheat Groove"</b></p>
+            <p>Get energized with this lively and rhythmic track.</p>
+            <audio src="pinkfloyda.mp3" controls></audio>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
